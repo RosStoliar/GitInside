@@ -1,0 +1,116 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=SCH.OutJob
+Description=
+TargetOutputMedium=35133-001 PDF
+VariantName=[No Variations]
+VariantScope=0
+CurrentConfigurationName=
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
+OutputMedium1=35133 PDF
+OutputMedium1_Type=Publish
+OutputMedium2=35133-001 PDF
+OutputMedium2_Type=Publish
+OutputType1=Schematic Print
+OutputName1=Schematic Prints
+OutputCategory1=Documentation
+OutputDocumentPath1=[Project Physical Documents]
+OutputVariantName1=35132
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=1
+OutputEnabled1_OutputMedium2=0
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.52|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=B
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=True|ExpandPort=True|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+OutputType2=Schematic Print
+OutputName2=Schematic Prints
+OutputCategory2=Documentation
+OutputDocumentPath2=[Project Physical Documents]
+OutputVariantName2=35132-001
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=1
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.52|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=B
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=True|ExpandPort=True|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+
+[PublishSettings]
+OutputFilePath1=C:\Users\mhoopes\SkyDrive\Giga-tronics\_A1_ECO-012276\.\SCH\35133L_ED2_SCH.PDF
+ReleaseManaged1=0
+OutputBasePath1=.\
+OutputPathMedia1=SCH
+OutputPathMediaValue1=SCH
+OutputPathOutputer1=[Output Type]
+OutputPathOutputerPrefix1=
+OutputPathOutputerValue1=
+OutputFileName1=SCH.PDF
+OutputFileNameMulti1=
+UseOutputNameForMulti1=0
+OutputFileNameSpecial1==SCH_DWG_NO+SCH_REV+'_SCH_'+CurrentDate
+OpenOutput1=1
+PromptOverwrite1=1
+PublishMethod1=0
+ZoomLevel1=70
+FitSCHPrintSizeToDoc1=0
+FitPCBPrintSizeToDoc1=0
+GenerateNetsInfo1=0
+MarkPins1=0
+MarkNetLabels1=0
+MarkPortsId1=0
+GenerateTOC1=1
+ShowComponentParameters1=0
+GlobalBookmarks1=0
+PDFACompliance1=Disabled
+PDFVersion1=1.7
+OutputFilePath2=C:\Users\mhoopes\SkyDrive\Giga-tronics\_A1_ECO-012276\.\SCH\35133L_ED2_SCH.PDF
+ReleaseManaged2=0
+OutputBasePath2=.\
+OutputPathMedia2=SCH
+OutputPathMediaValue2=SCH
+OutputPathOutputer2=[Output Type]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=SCH.PDF
+OutputFileNameMulti2=
+UseOutputNameForMulti2=0
+OutputFileNameSpecial2==SCH_DWG_NO+SCH_REV+'_SCH_'+CurrentDate
+OpenOutput2=1
+PromptOverwrite2=1
+PublishMethod2=0
+ZoomLevel2=70
+FitSCHPrintSizeToDoc2=0
+FitPCBPrintSizeToDoc2=0
+GenerateNetsInfo2=0
+MarkPins2=0
+MarkNetLabels2=0
+MarkPortsId2=0
+GenerateTOC2=1
+ShowComponentParameters2=0
+GlobalBookmarks2=0
+PDFACompliance2=Disabled
+PDFVersion2=1.7
+
+[GeneratedFilesSettings]
+RelativeOutputPath1=C:\Users\mhoopes\SkyDrive\Giga-tronics\_A1_ECO-012276\.\SCH\35133L_ED2_SCH.PDF
+OpenOutputs1=1
+RelativeOutputPath2=C:\Users\mhoopes\SkyDrive\Giga-tronics\_A1_ECO-012276\.\SCH\35133L_ED2_SCH.PDF
+OpenOutputs2=1
+

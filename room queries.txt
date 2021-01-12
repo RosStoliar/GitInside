@@ -1,0 +1,16 @@
+(IsComponentVia = False) and (StartLayer = 'InternalPlane4') and WithinRoom('Bottom Shield Room')
+
+(IsComponentVia = False) and (StartLayer = 'InternalPlane4') and WithinRoom('Bottom STALO Room')
+
+(IsComponentVia = False) and (StopLayer = 'InternalPlane1') and WithinRoom('Top Shield Room')
+
+(IsComponentVia = False) and (StopLayer = 'InternalPlane3')
+
+Shield regions:
+
+IsRegion and WithinRoom('Bottom Shield Room') and InNet('GND') and OnBottom (IsComponentPrimitive = False)  
+
+IsRegion and WithinRoom('Bottom STALO Room') and InNet('GND') and OnBottom (IsComponentPrimitive = False)
+
+IsRegion and WithinRoom('Top Shield Room') and InNet('GND') and OnTop and (IsComponentPrimitive = False)
+
